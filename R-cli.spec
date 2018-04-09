@@ -4,7 +4,7 @@
 #
 Name     : R-cli
 Version  : 1.0.0
-Release  : 3
+Release  : 4
 URL      : https://cran.r-project.org/src/contrib/cli_1.0.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/cli_1.0.0.tar.gz
 Summary  : Helpers for Developing Command Line Interfaces
@@ -30,11 +30,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1521230953
+export SOURCE_DATE_EPOCH=1523294349
 
 %install
 rm -rf %{buildroot}
-export SOURCE_DATE_EPOCH=1521230953
+export SOURCE_DATE_EPOCH=1523294349
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
 export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
