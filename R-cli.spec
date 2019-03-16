@@ -4,17 +4,23 @@
 #
 Name     : R-cli
 Version  : 1.0.1
-Release  : 15
+Release  : 16
 URL      : https://cran.r-project.org/src/contrib/cli_1.0.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/cli_1.0.1.tar.gz
-Summary  : Helpers for Developing Command Line Interfaces
+Summary  : Create Compact Hash Digests of R Objects
 Group    : Development/Tools
 License  : MIT
 BuildRequires : buildreq-R
 
 %description
-interfaces ('CLIs'). Includes tools for drawing rules, boxes, trees, and
-    'Unicode' symbols with 'ASCII' alternatives.
+cli
+================
+> Helpers for Developing Command Line Interfaces
+[![Linux Build Status](https://api.travis-ci.org/r-lib/cli.svg?branch=master)](https://travis-ci.org/r-lib/cli)
+[![Windows Build status](https://ci.appveyor.com/api/projects/status/github/r-lib/cli?svg=true)](https://ci.appveyor.com/project/gaborcsardi/cli)
+[![](http://www.r-pkg.org/badges/version/cli)](http://www.r-pkg.org/pkg/cli)
+[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/cli)](http://www.r-pkg.org/pkg/cli)
+[![Coverage Status](https://img.shields.io/codecov/c/github/r-lib/cli/master.svg)](https://codecov.io/github/r-lib/cli?branch=master)
 
 %prep
 %setup -q -c -n cli
@@ -24,11 +30,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1537930586
+export SOURCE_DATE_EPOCH=1552727567
 
 %install
+export SOURCE_DATE_EPOCH=1552727567
 rm -rf %{buildroot}
-export SOURCE_DATE_EPOCH=1537930586
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
 export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -63,8 +69,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export _R_CHECK_FORCE_SUGGESTS_=false
-R CMD check --no-manual --no-examples --no-codoc -l %{buildroot}/usr/lib64/R/library cli|| : 
-cp ~/.stash/* %{buildroot}/usr/lib64/R/library/*/libs/ || :
+R CMD check --no-manual --no-examples --no-codoc  cli || :
 
 
 %files
@@ -127,3 +132,16 @@ cp ~/.stash/* %{buildroot}/usr/lib64/R/library/*/libs/ || :
 /usr/lib64/R/library/cli/help/paths.rds
 /usr/lib64/R/library/cli/html/00Index.html
 /usr/lib64/R/library/cli/html/R.css
+/usr/lib64/R/library/cli/tests/testthat.R
+/usr/lib64/R/library/cli/tests/testthat/helper.R
+/usr/lib64/R/library/cli/tests/testthat/test-assertions.R
+/usr/lib64/R/library/cli/tests/testthat/test-box-styles.R
+/usr/lib64/R/library/cli/tests/testthat/test-boxes.R
+/usr/lib64/R/library/cli/tests/testthat/test-cat-helpers.R
+/usr/lib64/R/library/cli/tests/testthat/test-cat.R
+/usr/lib64/R/library/cli/tests/testthat/test-rules.R
+/usr/lib64/R/library/cli/tests/testthat/test-sitrep.R
+/usr/lib64/R/library/cli/tests/testthat/test-spinners.R
+/usr/lib64/R/library/cli/tests/testthat/test-tree.R
+/usr/lib64/R/library/cli/tests/testthat/test-utils.R
+/usr/lib64/R/library/cli/tests/testthat/test.R

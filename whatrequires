@@ -1,4 +1,8 @@
 # This file contains recursive sources that require this package
-R-ggridges
-R-testthat
+R-pillar
+R-pkgbuild
+R-rcmdcheck
+R-rlang
+R-sessioninfo
+R-styler
 R-tibble
