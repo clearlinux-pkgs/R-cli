@@ -30,7 +30,6 @@ R-loo
 R-magrittr
 R-manipulateWidget
 R-modelr
-R-msm
 R-openxlsx
 R-optparse
 R-packrat
@@ -72,6 +71,7 @@ R-statip
 R-styler
 R-testthat
 R-tfruns
+R-tibble
 R-tidyr
 R-tidyselect
 R-tidyverse
