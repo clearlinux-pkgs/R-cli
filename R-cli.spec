@@ -4,7 +4,7 @@
 #
 Name     : R-cli
 Version  : 1.1.0
-Release  : 21
+Release  : 22
 URL      : https://cran.r-project.org/src/contrib/cli_1.1.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/cli_1.1.0.tar.gz
 Summary  : Create Compact Hash Digests of R Objects
