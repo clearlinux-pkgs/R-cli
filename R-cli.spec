@@ -4,23 +4,21 @@
 #
 Name     : R-cli
 Version  : 1.1.0
-Release  : 25
+Release  : 26
 URL      : https://cran.r-project.org/src/contrib/cli_1.1.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/cli_1.1.0.tar.gz
-Summary  : Create Compact Hash Digests of R Objects
+Summary  : Helpers for Developing Command Line Interfaces
 Group    : Development/Tools
 License  : MIT
+Requires: R-assertthat
+Requires: R-crayon
+BuildRequires : R-assertthat
+BuildRequires : R-crayon
 BuildRequires : buildreq-R
 
 %description
-cli
-================
-> Helpers for Developing Command Line Interfaces
-[![Linux Build Status](https://api.travis-ci.org/r-lib/cli.svg?branch=master)](https://travis-ci.org/r-lib/cli)
-[![Windows Build status](https://ci.appveyor.com/api/projects/status/github/r-lib/cli?svg=true)](https://ci.appveyor.com/project/gaborcsardi/cli)
-[![](http://www.r-pkg.org/badges/version/cli)](http://www.r-pkg.org/pkg/cli)
-[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/cli)](http://www.r-pkg.org/pkg/cli)
-[![Coverage Status](https://img.shields.io/codecov/c/github/r-lib/cli/master.svg)](https://codecov.io/github/r-lib/cli?branch=master)
+interfaces ('CLIs'). Includes tools for drawing rules, boxes, trees, and
+    'Unicode' symbols with 'ASCII' alternatives.
 
 %prep
 %setup -q -c -n cli
@@ -29,13 +27,13 @@ cli
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
-export LANG=C
-export SOURCE_DATE_EPOCH=1553003440
+export LANG=C.UTF-8
+export SOURCE_DATE_EPOCH=1569282764
 
 %install
-export SOURCE_DATE_EPOCH=1553003440
+export SOURCE_DATE_EPOCH=1569282764
 rm -rf %{buildroot}
-export LANG=C
+export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
 export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
 export FFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -64,12 +62,12 @@ R CMD INSTALL --preclean --install-tests --built-timestamp=${SOURCE_DATE_EPOCH} 
 cp ~/.stash/* %{buildroot}/usr/lib64/R/library/*/libs/ || :
 %{__rm} -rf %{buildroot}%{_datadir}/R/library/R.css
 %check
-export LANG=C
+export LANG=C.UTF-8
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export _R_CHECK_FORCE_SUGGESTS_=false
-R CMD check --no-manual --no-examples --no-codoc  cli || :
+R CMD check --no-manual --no-examples --no-codoc cli || :
 
 
 %files
