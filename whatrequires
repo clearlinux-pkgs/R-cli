@@ -3,9 +3,12 @@ R-DBI
 R-RANN
 R-dcurver
 R-devtools
+R-fs
 R-generics
 R-ini
+R-modelr
 R-packrat
+R-parsedate
 R-pillar
 R-pkgbuild
 R-pkgdown
