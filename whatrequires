@@ -4,16 +4,13 @@ R-dcurver
 R-devtools
 R-fs
 R-generics
+R-gh
 R-ini
-R-modelr
 R-packrat
 R-parsedate
 R-pillar
 R-pkgbuild
 R-pkgdown
-R-pkgmaker
-R-ps
-R-qtl
 R-rcmdcheck
 R-reshape2
 R-rgenoud
