@@ -1,8 +1,6 @@
 # This file contains recursive sources that require this package
 R-RANN
-R-dcurver
 R-devtools
-R-fs
 R-generics
 R-gh
 R-ini
@@ -12,7 +10,6 @@ R-pillar
 R-pkgbuild
 R-pkgdown
 R-rcmdcheck
-R-reshape2
 R-rgenoud
 R-rhub
 R-sessioninfo
@@ -21,5 +18,4 @@ R-taxize
 R-testthat
 R-tibble
 R-tidyverse
-R-treatSens
-R-zeallot
+R-usethis
