@@ -1,16 +1,11 @@
 # This file contains recursive sources that require this package
-R-RANN
 R-devtools
-R-generics
 R-gh
-R-ini
-R-packrat
-R-parsedate
 R-pillar
 R-pkgbuild
 R-pkgdown
+R-pkgload
 R-rcmdcheck
-R-rgenoud
 R-rhub
 R-sessioninfo
 R-styler
