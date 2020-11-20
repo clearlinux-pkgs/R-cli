@@ -6,6 +6,7 @@ R-pkgbuild
 R-pkgdown
 R-pkgload
 R-rcmdcheck
+R-readr
 R-rhub
 R-sessioninfo
 R-styler
