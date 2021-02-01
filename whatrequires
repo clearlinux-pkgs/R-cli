@@ -3,10 +3,10 @@ R-devtools
 R-gh
 R-pillar
 R-pkgbuild
-R-pkgdown
 R-pkgload
 R-rcmdcheck
 R-readr
+R-reprex
 R-rhub
 R-sessioninfo
 R-styler
@@ -15,3 +15,4 @@ R-testthat
 R-tibble
 R-tidyverse
 R-usethis
+R-waldo
