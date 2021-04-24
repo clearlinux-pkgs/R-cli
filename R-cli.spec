@@ -4,7 +4,7 @@
 #
 Name     : R-cli
 Version  : 2.4.0
-Release  : 42
+Release  : 43
 URL      : https://cran.r-project.org/src/contrib/cli_2.4.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/cli_2.4.0.tar.gz
 Summary  : Helpers for Developing Command Line Interfaces
