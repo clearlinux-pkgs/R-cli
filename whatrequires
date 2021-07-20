@@ -1,6 +1,8 @@
 # This file contains recursive sources that require this package
 R-devtools
+R-gargle
 R-gh
+R-googledrive
 R-pillar
 R-pkgbuild
 R-pkgload
