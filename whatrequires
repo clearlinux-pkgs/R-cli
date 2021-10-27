@@ -3,6 +3,7 @@ R-devtools
 R-gargle
 R-gh
 R-googledrive
+R-googlesheets4
 R-pillar
 R-pkgbuild
 R-pkgload
@@ -16,4 +17,5 @@ R-taxize
 R-testthat
 R-tidyverse
 R-usethis
+R-vroom
 R-waldo
