@@ -1,9 +1,11 @@
 # This file contains recursive sources that require this package
+R-desc
 R-devtools
 R-gargle
 R-gh
 R-googledrive
 R-googlesheets4
+R-haven
 R-pillar
 R-pkgbuild
 R-pkgload
@@ -17,5 +19,6 @@ R-taxize
 R-testthat
 R-tidyverse
 R-usethis
+R-vctrs
 R-vroom
 R-waldo
