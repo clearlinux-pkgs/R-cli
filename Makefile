@@ -1,5 +1,5 @@
 PKG_NAME := R-cli
-URL = https://cran.r-project.org/src/contrib/cli_3.3.0.tar.gz
+URL = https://cran.r-project.org/src/contrib/cli_3.4.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

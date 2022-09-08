@@ -1,6 +1,8 @@
 # This file contains recursive sources that require this package
+R-dbplyr
 R-desc
 R-devtools
+R-forcats
 R-gargle
 R-gh
 R-googledrive
@@ -8,16 +10,21 @@ R-googlesheets4
 R-haven
 R-pillar
 R-pkgbuild
+R-pkgdown
 R-pkgload
 R-rcmdcheck
 R-readr
+R-recipes
 R-reprex
 R-rhub
+R-roxygen2
+R-rvest
 R-sessioninfo
 R-styler
 R-taxize
 R-testthat
 R-tidyverse
+R-urlchecker
 R-usethis
 R-vctrs
 R-vroom
