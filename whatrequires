@@ -4,10 +4,12 @@ R-desc
 R-devtools
 R-forcats
 R-gargle
+R-ggplot2
 R-gh
 R-googledrive
 R-googlesheets4
 R-haven
+R-lifecycle
 R-pillar
 R-pkgbuild
 R-pkgdown
@@ -20,9 +22,12 @@ R-rhub
 R-roxygen2
 R-rvest
 R-sessioninfo
+R-slider
+R-stringr
 R-styler
 R-taxize
 R-testthat
+R-tidyselect
 R-tidyverse
 R-urlchecker
 R-usethis
