@@ -14,6 +14,7 @@ R-pillar
 R-pkgbuild
 R-pkgdown
 R-pkgload
+R-purrr
 R-rcmdcheck
 R-readr
 R-recipes
