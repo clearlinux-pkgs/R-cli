@@ -1,7 +1,10 @@
 # This file contains recursive sources that require this package
+R-conflicted
 R-dbplyr
 R-desc
 R-devtools
+R-dplyr
+R-dtplyr
 R-forcats
 R-gargle
 R-ggplot2
@@ -9,6 +12,7 @@ R-gh
 R-googledrive
 R-googlesheets4
 R-haven
+R-httr2
 R-lifecycle
 R-pillar
 R-pkgbuild
@@ -28,6 +32,7 @@ R-stringr
 R-styler
 R-taxize
 R-testthat
+R-tidyr
 R-tidyselect
 R-tidyverse
 R-urlchecker

@@ -4,7 +4,7 @@
 #
 Name     : R-cli
 Version  : 3.6.0
-Release  : 70
+Release  : 71
 URL      : https://cran.r-project.org/src/contrib/cli_3.6.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/cli_3.6.0.tar.gz
 Summary  : Helpers for Developing Command Line Interfaces
@@ -12,9 +12,6 @@ Group    : Development/Tools
 License  : MIT
 Requires: R-cli-lib = %{version}-%{release}
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 cli
@@ -39,10 +36,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1673370333
+export SOURCE_DATE_EPOCH=1678812089
 
 %install
-export SOURCE_DATE_EPOCH=1673370333
+export SOURCE_DATE_EPOCH=1678812089
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
