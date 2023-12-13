@@ -1,20 +1,28 @@
 # This file contains recursive sources that require this package
+R-DescTools
+R-broom.helpers
+R-clock
 R-conflicted
 R-dbplyr
 R-desc
 R-devtools
+R-dials
 R-dplyr
 R-dtplyr
 R-forcats
 R-gargle
 R-ggplot2
+R-ggstats
 R-gh
 R-googledrive
 R-googlesheets4
 R-gtable
+R-hardhat
 R-haven
 R-httr2
+R-igraph
 R-lifecycle
+R-patchwork
 R-pillar
 R-pkgbuild
 R-pkgdown
@@ -26,7 +34,10 @@ R-recipes
 R-reprex
 R-rhub
 R-roxygen2
+R-rsample
+R-rsconnect
 R-rvest
+R-scales
 R-sessioninfo
 R-slider
 R-stringr
@@ -41,3 +52,4 @@ R-usethis
 R-vctrs
 R-vroom
 R-waldo
+R-xml2
