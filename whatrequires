@@ -1,5 +1,6 @@
 # This file contains recursive sources that require this package
 R-DescTools
+R-DiagrammeR
 R-broom.helpers
 R-clock
 R-conflicted
@@ -21,6 +22,7 @@ R-hardhat
 R-haven
 R-httr2
 R-igraph
+R-lava
 R-lifecycle
 R-patchwork
 R-pillar
