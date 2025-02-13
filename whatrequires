@@ -2,6 +2,7 @@
 R-DescTools
 R-DiagrammeR
 R-broom.helpers
+R-cards
 R-clock
 R-conflicted
 R-dbplyr
@@ -22,8 +23,10 @@ R-hardhat
 R-haven
 R-httr2
 R-igraph
+R-labelled
 R-lava
 R-lifecycle
+R-officer
 R-patchwork
 R-pillar
 R-pkgbuild
@@ -36,17 +39,21 @@ R-recipes
 R-reprex
 R-rhub
 R-roxygen2
+R-rredlist
 R-rsample
 R-rsconnect
 R-rvest
 R-scales
 R-sessioninfo
+R-sfd
 R-slider
 R-stringr
 R-styler
 R-taxize
 R-testthat
+R-themis
 R-tidyr
+R-tidyrules
 R-tidyselect
 R-tidyverse
 R-urlchecker
@@ -54,4 +61,5 @@ R-usethis
 R-vctrs
 R-vroom
 R-waldo
+R-webmockr
 R-xml2
