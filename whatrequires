@@ -1,6 +1,7 @@
 # This file contains recursive sources that require this package
 R-DescTools
 R-DiagrammeR
+R-broom
 R-broom.helpers
 R-cards
 R-clock
@@ -26,6 +27,7 @@ R-igraph
 R-labelled
 R-lava
 R-lifecycle
+R-lintr
 R-officer
 R-patchwork
 R-pillar
@@ -47,6 +49,7 @@ R-scales
 R-sessioninfo
 R-sfd
 R-slider
+R-sparsevctrs
 R-stringr
 R-styler
 R-taxize
